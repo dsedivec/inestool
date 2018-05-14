@@ -77,6 +77,8 @@ That looks right to me.  Feel free to compare with [Super Mario Bros. on bootgod
 
 Requires Python 2.7.  If you want to read 7-Zip archives you'll also need [pylzma][] installed (e.g. `pip install pylzma`).  Only tested on OS X so far, but should work on *nix and even Windows, I expect.
 
+[pylzma]: https://github.com/fancycode/pylzma
+
 You'll need to download a database to use the `write` sub-command.  I've been using [Nestopia's][Nestopia]: download `NstDatabase.xml` from there.  Alternatively you could try using [bootgod's database][] which should also work.  Check out the `--db` option to `write` to point it at a database if yours isn't named `NstDatabase.xml` in the current directory.
 
 [bootgod's database]: http://bootgod.dyndns.org:7777/xml.php
