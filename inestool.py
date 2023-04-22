@@ -781,7 +781,7 @@ def main():
     # XXX Currently nothing logs at anything other than warn.  See
     # commented code below, too.
     # parser.add_argument("--verbose", "-v", default=False, action="store_true")
-    subparsers = parser.add_subparsers()
+    subparsers = parser.add_subparsers(required=True)
     read_parser = subparsers.add_parser("read", help="read iNES headers")
     read_parser.set_defaults(handler=cmd_read)
     read_parser.add_argument("roms", nargs="+", metavar="rom", help=roms_help)
