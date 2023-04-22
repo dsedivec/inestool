@@ -75,7 +75,7 @@ That looks right to me.  Feel free to compare with [Super Mario Bros. on bootgod
 
 ## Requirements
 
-Requires Python 2.7.  If you want to read 7-Zip archives you'll also need [pylzma][] installed (e.g. `pip install pylzma`).  Only tested on OS X so far, but should work on *nix and even Windows, I expect.
+Requires Python 3, only tested currently under Python 3.11.  If you want to read 7-Zip archives you'll also need [pylzma][] installed (e.g. `pip install pylzma`).  Only tested on OS X so far, but should work on *nix and even Windows, I expect.
 
 [pylzma]: https://github.com/fancycode/pylzma
 
