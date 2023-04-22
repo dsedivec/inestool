@@ -795,8 +795,8 @@ def main():
         default="NstDatabase.xml",
         help=(
             "path to NES database (download "
-            " https://raw.githubusercontent.com/rdanbrook/nestopia/master/"
-            "NstDatabase.xml"
+            " https://gitlab.com/jgemu/nestopia/-/raw/master/NstDatabase.xml"
+            " or https://github.com/0ldsk00l/nestopia/raw/master/NstDatabase.xml "
             " or from http://bootgod.dyndns.org:7777/xml.php"
         ),
     )
